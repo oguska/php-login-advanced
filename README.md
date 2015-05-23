@@ -7,17 +7,16 @@ mail sending via PHPMailer (SMTP or PHP's mail() function/linux sendmail). Uses 
 BLOWFISH hashing/salting functions (includes the official PHP 5.3 & PHP 5.4 compatibility pack, which makes those
 functions available in those versions too).
 
-[![Donate with PayPal banner](http://www.dev-metal.com/donate-with-paypal.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P5YLUK4MW3LDG)
+[![Support the project](_installation/banner-host1plus.png)](banner-host1plus.png)
 
-[![Donate with Flattr banner](http://www.dev-metal.com/donate-with-flattr.png)](https://flattr.com/submit/auto?user_id=panique&url=https%3A%2F%2Fgithub.com%2Fpanique%2Fphp-login-advanced)
+**Please note: This version is not maintained anymore. I'm focussing on developing 
+[HUGE](https://github.com/panique/huge) and I highly recommends you to also use that version.
+However, there are two interesting forks of php-login-advanced, have a look at [austinkregel's fork here](https://github.com/panique/php-login-advanced/issues/45)
+and [devplanete's fork here](https://github.com/panique/php-login-advanced/issues/23). Thanks, gentlemen!**
 
-**Please also note: This version is not maintained anymore. The php-login project will focus on developing the
-[Professional MVC Version](https://github.com/panique/php-login) and highly recommends you to also use that version.**
-
-Follow the project on **[Twitter](https://twitter.com/simplephplogin)**,
-**[Facebook](https://www.facebook.com/pages/PHP-Login-Script/461306677235868)** or
-**[Google+](https://plus.google.com/104110071861201951660)** and have a look on the official support blog
-**[Dev Metal](http://www.dev-metal.com)**. Ask questions in the [Official Support Forum](http://support-forum.php-login.net/).
+Follow the project on **[Twitter](https://twitter.com/simplephplogin)** or
+**[Facebook](https://www.facebook.com/pages/PHP-Login-Script/461306677235868)**. 
+Also have a look on my blog if you like: **[Dev Metal](http://www.dev-metal.com)**.
 
 **This script is part of the php-login project, a collection of 4 different login scripts**.
 See [php-login.net](http://www.php-login.net) for more info.
@@ -31,11 +30,11 @@ See [php-login.net](http://www.php-login.net) for more info.
 3. **Advanced version** Similar to the minimal version, but full of features.
    Uses PDO, Captchas, mail sending via SMTP and much more.
    https://github.com/panique/php-login-advanced
-4. **Professional version** Everything comes with a professional MVC framework structure, perfect for building
+4. **HUGE (professional version)** Everything comes with a professional MVC framework structure, perfect for building
    real applications. Additional features like: URL rewriting, professional usage of controllers and actions, PDO, MySQL,
    mail sending via PHPMailer (SMTP or PHP's mail() function/linux sendmail), user profile pages, public user profiles,
    gravatars and local avatars, account upgrade/downgrade etc., login via Facebook, Composer integration, etc.
-   https://github.com/panique/php-login
+   https://github.com/panique/huge
 
 ## Live-demo
 
@@ -98,9 +97,6 @@ This script comes with a handy .htaccess in the views folder that denies direct 
 
 If you look into the code and at the file/folder-structure everything should be self-explaining.
 
-*Please note: This version is not maintained anymore. The php-login project will focus on developing the
-[Professional MVC Version](https://github.com/panique/php-login) and highly recommends you to also use that version.*
-
 ## Useful links
 
 - [How to use PDO](http://wiki.hashphp.org/PDO_Tutorial_for_MySQL_Developers)
@@ -109,11 +105,6 @@ If you look into the code and at the file/folder-structure everything should be 
 - [How to setup latest version of PHP 5.5 on Debian Wheezy 7.0/7.1 (and how to fix the GPG key error)](http://www.dev-metal.com/setup-latest-version-php-5-5-debian-wheezy-7-07-1-fix-gpg-key-error/)
 - [Notes on password & hashing salting in upcoming PHP versions (PHP 5.5.x & 5.6 etc.)](https://github.com/panique/php-login/wiki/Notes-on-password-&-hashing-salting-in-upcoming-PHP-versions-%28PHP-5.5.x-&-5.6-etc.%29)
 - [Some basic "benchmarks" of all PHP hash/salt algorithms](https://github.com/panique/php-login/wiki/Which-hashing-&-salting-algorithm-should-be-used-%3F)
-
-## Themes / User Interfaces / Styles
-
-Bookmark the highly related partner-project "[php-login-styles](https://github.com/panique/php-login-styles)" which will
-host beautiful themes for all the php-login versions. Currently this is only a placeholder, the project starts in 2014.
 
 ## License
 
@@ -126,11 +117,7 @@ This script is not developed any further, so only commit bugfixes, not new featu
 If you want to add new features etc, please contribute into the https://github.com/panique/php-login repo.
 Please commit only in *develop* branch. The *master* branch will always contain the stable version.
 
-## Support / Donate
+## Support
 
-If you think this script is useful and saves you a lot of work, then think about supporting the project:
-
-1. Rent your next server at [A2 Hosting](http://www.a2hosting.com/4471.html) or [DigitalOcean](https://www.digitalocean.com/?refcode=40d978532a20).
-2. Donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P5YLUK4MW3LDG)
-   or [GitTip](https://www.gittip.com/Panique/)
-3. Contribute to this project.
+If you think this script is useful and saves you a lot of work, then think about getting your next server from
+[Host1Plus](https://affiliates.host1plus.com/ref/devmetal/36f4d828.html). Thanks! :)
