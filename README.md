@@ -7,7 +7,7 @@ mail sending via PHPMailer (SMTP or PHP's mail() function/linux sendmail). Uses 
 BLOWFISH hashing/salting functions (includes the official PHP 5.3 & PHP 5.4 compatibility pack, which makes those
 functions available in those versions too).
 
-[![Support the project](_installation/banner-host1plus.png)](banner-host1plus.png)
+[![Support the project](_installation/banner-host1plus.png)](https://affiliates.host1plus.com/ref/devmetal/36f4d828.html)
 
 **Please note: This version is not maintained anymore. I'm focussing on developing 
 [HUGE](https://github.com/panique/huge) and I highly recommends you to also use that version.
